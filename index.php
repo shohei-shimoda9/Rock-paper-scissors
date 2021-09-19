@@ -2,16 +2,18 @@
 <html>
 <head>
     <meta charset="utf8">
-    <title>じゃんけん</title>
+    <title>Portfolio-shimo</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
 </head>
 <body>
 <div id="wrapper">
     <header>
-        <div class="header-logo">ゆるグラミング講座</div>
+        <div class="header-logo">Welcome my portfolio</div>
     </header>
     <main>
-        <h1>練習問題(1) じゃんけん</h1>
+        <h1>今日の運勢</h1>
         出す手を選んで勝負してください。
         <div class="form-box">
             <form action="battle.php" method="post">
@@ -29,8 +31,9 @@
         </div>
     </main>
     <footer>
-        <small>&copy;yurugramming!!</small>
+        <small>&copy; Portfolio-shimo All Rights Reserved.</small>
     </footer>
 </div>
+    <script src="main.js"></script>
 </body>
 </html>

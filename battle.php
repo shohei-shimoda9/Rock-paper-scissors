@@ -31,13 +31,14 @@ if (isset($_POST['playerHand'])) {
 <html>
 <head>
     <meta charset="utf8">
-    <title>じゃんけん</title>
+    <title>Welcome my portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
 <div id="wrapper">
     <header>
-        <div class="header-logo">ゆるグラミング講座</div>
+        <div class="header-logo">result</div>
     </header>
     <main>
         <h1>結果は・・・</h1>
@@ -45,14 +46,15 @@ if (isset($_POST['playerHand'])) {
             <p class="result-word"><?= $result ?>！</p>
 
             あなた：<?= $playerHand ?><br>
-            コンピューター：<?= $pcHand ?><br>
+            わたし：<?= $pcHand ?><br>
 
             <p><a class="red" href="index.php">>>もう一回勝負する</a></p>
         </div>
     </main>
     <footer>
-        <small>&copy;yurugramming!!</small>
+      <small>&copy; Portfolio-shimo All Rights Reserved.</small>
     </footer>
 </div>
+    <script src="main.js"></script>
 </body>
 </html>
