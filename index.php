@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf8">
-    <title>Portfolio-shimo</title>
+    <title>~Portfolio-shimo~</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     
